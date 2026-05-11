@@ -1,0 +1,157 @@
+{
+  "auth": {
+    "backToHome": "Back to Home",
+    "welcomeBack": "Welcome Back",
+    "join": "Join CyberLearn AI",
+    "loginDesc": "Enter your credentials to access your terminal.",
+    "signupDesc": "Create an account to start your hacking journey.",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "login": "Login",
+    "createAccount": "Create Account",
+    "or": "OR",
+    "continueWithGoogle": "Continue with Google",
+    "noAccount": "Don't have an account? ",
+    "hasAccount": "Already have an account? ",
+    "signUpHere": "Sign up here",
+    "logInHere": "Log in here",
+    "authFailed": "Authentication failed",
+    "googleFailed": "Google Sign-In failed"
+  },
+  "landing": {
+    "signIn": "Sign In",
+    "badge": "Cybersecurity Education 2.0",
+    "heroTitle1": "Master Cybersecurity with",
+    "heroTitle2": "AI-Powered Guidance",
+    "heroDesc": "Your personal AI mentor for ethical hacking and defensive security. Learn faster with personalized roadmaps, interactive quizzes, and intelligent document summarization.",
+    "startLearning": "Start Learning",
+    "tryAssistant": "Try AI Assistant",
+    "stats": {
+      "247": "24/7",
+      "aiMentorship": "AI Mentorship",
+      "custom": "Custom",
+      "learningPaths": "Learning Paths",
+      "interactive": "100%",
+      "interactiveDesc": "Interactive",
+      "free": "Free",
+      "toGetStarted": "To Get Started"
+    },
+    "coreFeatures": "Core ",
+    "coreFeaturesHighlight": "Features",
+    "coreFeaturesDesc": "Everything you need to go from absolute beginner to cybersecurity professional, all powered by advanced AI.",
+    "features": {
+      "chat": {
+        "title": "AI Chat Assistant",
+        "desc": "Ask any cybersecurity question. Get clear, beginner-friendly explanations with practical examples."
+      },
+      "roadmap": {
+        "title": "Smart Roadmaps",
+        "desc": "Tell the AI your goals (e.g., \"Become a Penetration Tester\") and get a step-by-step learning path."
+      },
+      "quiz": {
+        "title": "Quiz Generator",
+        "desc": "Test your knowledge instantly. The AI generates contextual quizzes based on what you are learning."
+      },
+      "pdf": {
+        "title": "PDF Summarizer",
+        "desc": "Upload long security whitepapers or textbooks and get concise, easy-to-read summaries instantly."
+      },
+      "scenarios": {
+        "title": "Practical Scenarios",
+        "desc": "Learn through simulated examples of real-world attacks and how to defend against them."
+      },
+      "updated": {
+        "title": "Always Updated",
+        "desc": "Our AI is constantly learning about the latest threats and vulnerabilities in the industry."
+      }
+    },
+    "howItWorks": "How It ",
+    "howItWorksHighlight": "Works",
+    "howItWorksDesc": "Start your learning journey in just a few simple steps.",
+    "steps": {
+      "1": {
+        "title": "Create Account",
+        "desc": "Sign up for free and access your personal dashboard."
+      },
+      "2": {
+        "title": "Set Your Goal",
+        "desc": "Tell the AI what you want to achieve in cybersecurity."
+      },
+      "3": {
+        "title": "Follow Roadmap",
+        "desc": "Learn step-by-step with tailored modules and resources."
+      },
+      "4": {
+        "title": "Test Knowledge",
+        "desc": "Take AI-generated quizzes to solidify your understanding."
+      }
+    },
+    "ctaTitle": "Ready to Hack Your Learning?",
+    "ctaDesc": "Join CyberLearn AI today and accelerate your cybersecurity career with the power of artificial intelligence.",
+    "getStarted": "Get Started Now",
+    "noCreditCard": "No credit card required",
+    "instantAccess": "Instant Access",
+    "footer": "© {{year}} CyberLearn AI. Empowering the next generation of security professionals."
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "aiAssistant": "AI Assistant",
+    "roadmap": "Roadmap",
+    "quizGen": "Quiz Gen",
+    "summarizer": "Summarizer",
+    "logout": "Logout Session"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, ",
+    "hacker": "Hacker",
+    "subtitle": "Here is your learning progress for today.",
+    "topicsLearned": "Topics Learned",
+    "quizzesPassed": "Quizzes Passed",
+    "threatsAnalyzed": "Threats Analyzed",
+    "activityScore": "Activity Score",
+    "recentActivity": "Recent Learning Activity",
+    "emptyActivity": "Activity feed will be populated as you complete quizzes and chat with AI..."
+  },
+  "quiz": {
+    "title": "Quiz Generator",
+    "subtitle": "Test your knowledge with AI-generated quizzes.",
+    "topicLabel": "Topic",
+    "difficultyLabel": "Difficulty",
+    "generateBtn": "Generate Quiz",
+    "explanation": "Explanation:",
+    "submitBtn": "Submit Answers",
+    "completedTitle": "Quiz Completed!",
+    "scoreText": "Your score is",
+    "tryAnotherBtn": "Try Another Quiz"
+  },
+  "summarizer": {
+    "title": "PDF / Text Summarizer",
+    "subtitle": "Paste your long cybersecurity articles or materials here to get a quick, beginner-friendly summary.",
+    "inputMaterial": "Input Material",
+    "placeholderText": "Paste your text here...",
+    "fileSelected": "File selected: ",
+    "uploadLabel": "Or Upload Document (.pdf, .txt)",
+    "removeFile": "Remove file",
+    "generateBtn": "Generate Summary",
+    "aiSummary": "AI Summary",
+    "emptyState": "Your summary will appear here.",
+    "analyzing": "Analyzing text...",
+    "fetchError": "Failed to generate summary. Make sure the backend is running."
+  },
+  "aiAssistant": {
+    "title": "AI Assistant",
+    "subtitle": "Your personal tutor for cybersecurity concepts.",
+    "placeholder": "Ask about SQL Injection, XSS, Phishing...",
+    "defaultGreeting": "Hello! I am CyberLearn AI. What cybersecurity topic would you like to learn today?",
+    "fetchError": "Sorry, I couldn't connect to the backend server or database."
+  },
+  "roadmap": {
+    "title": "Roadmap Generator",
+    "subtitle": "Get a personalized learning path based on your goals.",
+    "careerLabel": "Career Goal",
+    "levelLabel": "Skill Level",
+    "generateBtn": "Generate Roadmap",
+    "learningPath": "Your Learning Path",
+    "fetchError": "Failed to generate roadmap. Please check if the backend is running."
+  }
+}

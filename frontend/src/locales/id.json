@@ -1,0 +1,157 @@
+{
+  "auth": {
+    "backToHome": "Kembali ke Beranda",
+    "welcomeBack": "Selamat Datang Kembali",
+    "join": "Gabung CyberLearn AI",
+    "loginDesc": "Masukkan kredensial Anda untuk mengakses terminal.",
+    "signupDesc": "Buat akun untuk memulai perjalanan peretasan Anda.",
+    "emailLabel": "Alamat Email",
+    "passwordLabel": "Kata Sandi",
+    "login": "Masuk",
+    "createAccount": "Buat Akun",
+    "or": "ATAU",
+    "continueWithGoogle": "Lanjutkan dengan Google",
+    "noAccount": "Belum punya akun? ",
+    "hasAccount": "Sudah punya akun? ",
+    "signUpHere": "Daftar di sini",
+    "logInHere": "Masuk di sini",
+    "authFailed": "Autentikasi gagal",
+    "googleFailed": "Masuk dengan Google gagal"
+  },
+  "landing": {
+    "signIn": "Masuk",
+    "badge": "Pendidikan Keamanan Siber 2.0",
+    "heroTitle1": "Kuasai Keamanan Siber dengan",
+    "heroTitle2": "Panduan Berbasis AI",
+    "heroDesc": "Mentor AI pribadi Anda untuk peretasan etis dan keamanan defensif. Belajar lebih cepat dengan peta jalan yang dipersonalisasi, kuis interaktif, dan ringkasan dokumen cerdas.",
+    "startLearning": "Mulai Belajar",
+    "tryAssistant": "Coba Asisten AI",
+    "stats": {
+      "247": "24/7",
+      "aiMentorship": "Bimbingan AI",
+      "custom": "Kustom",
+      "learningPaths": "Jalur Belajar",
+      "interactive": "100%",
+      "interactiveDesc": "Interaktif",
+      "free": "Gratis",
+      "toGetStarted": "Untuk Memulai"
+    },
+    "coreFeatures": "Fitur ",
+    "coreFeaturesHighlight": "Utama",
+    "coreFeaturesDesc": "Semua yang Anda butuhkan untuk beralih dari pemula absolut menjadi profesional keamanan siber, semuanya didukung oleh AI canggih.",
+    "features": {
+      "chat": {
+        "title": "Asisten Obrolan AI",
+        "desc": "Ajukan pertanyaan keamanan siber apa pun. Dapatkan penjelasan yang jelas dan ramah pemula dengan contoh praktis."
+      },
+      "roadmap": {
+        "title": "Peta Jalan Cerdas",
+        "desc": "Beri tahu AI tujuan Anda (misalnya, \"Menjadi Penetration Tester\") dan dapatkan jalur pembelajaran langkah demi langkah."
+      },
+      "quiz": {
+        "title": "Pembuat Kuis",
+        "desc": "Uji pengetahuan Anda secara instan. AI menghasilkan kuis kontekstual berdasarkan apa yang Anda pelajari."
+      },
+      "pdf": {
+        "title": "Peringkas PDF",
+        "desc": "Unggah buku putih keamanan atau buku teks yang panjang dan dapatkan ringkasan yang ringkas dan mudah dibaca secara instan."
+      },
+      "scenarios": {
+        "title": "Skenario Praktis",
+        "desc": "Belajar melalui simulasi contoh serangan dunia nyata dan bagaimana bertahan terhadapnya."
+      },
+      "updated": {
+        "title": "Selalu Diperbarui",
+        "desc": "AI kami terus belajar tentang ancaman dan kerentanan terbaru dalam industri ini."
+      }
+    },
+    "howItWorks": "Cara ",
+    "howItWorksHighlight": "Kerjanya",
+    "howItWorksDesc": "Mulai perjalanan pembelajaran Anda hanya dalam beberapa langkah sederhana.",
+    "steps": {
+      "1": {
+        "title": "Buat Akun",
+        "desc": "Daftar gratis dan akses dasbor pribadi Anda."
+      },
+      "2": {
+        "title": "Tetapkan Tujuan",
+        "desc": "Beri tahu AI apa yang ingin Anda capai dalam keamanan siber."
+      },
+      "3": {
+        "title": "Ikuti Peta Jalan",
+        "desc": "Belajar langkah demi langkah dengan modul dan sumber daya yang disesuaikan."
+      },
+      "4": {
+        "title": "Uji Pengetahuan",
+        "desc": "Ambil kuis yang dihasilkan AI untuk memperkuat pemahaman Anda."
+      }
+    },
+    "ctaTitle": "Siap Meretas Pembelajaran Anda?",
+    "ctaDesc": "Bergabunglah dengan CyberLearn AI hari ini dan percepat karir keamanan siber Anda dengan kekuatan kecerdasan buatan.",
+    "getStarted": "Mulai Sekarang",
+    "noCreditCard": "Tanpa kartu kredit",
+    "instantAccess": "Akses Instan",
+    "footer": "© {{year}} CyberLearn AI. Memberdayakan generasi profesional keamanan berikutnya."
+  },
+  "sidebar": {
+    "dashboard": "Dasbor",
+    "aiAssistant": "Asisten AI",
+    "roadmap": "Peta Jalan",
+    "quizGen": "Pembuat Kuis",
+    "summarizer": "Peringkas",
+    "logout": "Keluar Sesi"
+  },
+  "dashboard": {
+    "welcome": "Selamat datang kembali, ",
+    "hacker": "Peretas",
+    "subtitle": "Berikut adalah progres belajar Anda hari ini.",
+    "topicsLearned": "Topik Dipelajari",
+    "quizzesPassed": "Kuis Lulus",
+    "threatsAnalyzed": "Ancaman Dianalisis",
+    "activityScore": "Skor Aktivitas",
+    "recentActivity": "Aktivitas Belajar Terbaru",
+    "emptyActivity": "Umpan aktivitas akan terisi setelah Anda menyelesaikan kuis dan mengobrol dengan AI..."
+  },
+  "quiz": {
+    "title": "Pembuat Kuis",
+    "subtitle": "Uji pengetahuan Anda dengan kuis berbasis AI.",
+    "topicLabel": "Topik",
+    "difficultyLabel": "Tingkat Kesulitan",
+    "generateBtn": "Buat Kuis",
+    "explanation": "Penjelasan:",
+    "submitBtn": "Kirim Jawaban",
+    "completedTitle": "Kuis Selesai!",
+    "scoreText": "Skor Anda adalah",
+    "tryAnotherBtn": "Coba Kuis Lain"
+  },
+  "summarizer": {
+    "title": "Peringkas PDF / Teks",
+    "subtitle": "Tempelkan artikel atau materi keamanan siber yang panjang di sini untuk mendapatkan ringkasan yang cepat dan ramah pemula.",
+    "inputMaterial": "Materi Input",
+    "placeholderText": "Tempelkan teks Anda di sini...",
+    "fileSelected": "File yang dipilih: ",
+    "uploadLabel": "Atau Unggah Dokumen (.pdf, .txt)",
+    "removeFile": "Hapus file",
+    "generateBtn": "Buat Ringkasan",
+    "aiSummary": "Ringkasan AI",
+    "emptyState": "Ringkasan Anda akan muncul di sini.",
+    "analyzing": "Menganalisis teks...",
+    "fetchError": "Gagal membuat ringkasan. Pastikan backend sedang berjalan."
+  },
+  "aiAssistant": {
+    "title": "Asisten AI",
+    "subtitle": "Tutor pribadi Anda untuk konsep keamanan siber.",
+    "placeholder": "Tanyakan tentang SQL Injection, XSS, Phishing...",
+    "defaultGreeting": "Halo! Saya CyberLearn AI. Topik keamanan siber apa yang ingin Anda pelajari hari ini?",
+    "fetchError": "Maaf, saya tidak dapat terhubung ke server backend atau database."
+  },
+  "roadmap": {
+    "title": "Pembuat Peta Jalan",
+    "subtitle": "Dapatkan jalur pembelajaran yang dipersonalisasi berdasarkan tujuan Anda.",
+    "careerLabel": "Tujuan Karir",
+    "levelLabel": "Tingkat Kemampuan",
+    "generateBtn": "Buat Peta Jalan",
+    "learningPath": "Jalur Belajar Anda",
+    "fetchError": "Gagal membuat peta jalan. Silakan periksa apakah backend sedang berjalan."
+  }
+}
