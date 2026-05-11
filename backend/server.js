@@ -12,16 +12,30 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
-app.use(express.json());
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST']
+}));
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true }));
 
-const upload = multer({ storage: multer.memoryStorage() });
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 10 * 1024 * 1024 }
+});
 
 // Initialize Gemini API (Will use placeholder if not set)
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || 'PLACEHOLDER');
 
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'CyberLearn AI Backend is running' });
+  res.json({
+  status: 'CyberLearn AI Backend is running',
+  port: PORT
+});
+});
+
+app.get('/', (req, res) => {
+  res.send('CyberLearn AI Backend Live');
 });
 
 // AI Assistant Route
@@ -79,7 +93,11 @@ app.post('/api/quiz', async (req, res) => {
     const text = response.text();
     // Bersihkan markdown backticks dari output Gemini sebelum diparse
     const cleanText = text.replace(/```json\n?|```/g, '').trim();
-    res.json({ quiz: JSON.parse(cleanText) });
+    try {
+  res.json({ quiz: JSON.parse(cleanText) });
+} catch {
+  res.status(500).json({ error: "AI returned invalid quiz format" });
+}
   } catch (error) {
     console.error('Error in quiz API:', error);
     res.status(500).json({ error: 'Failed to process request' });
